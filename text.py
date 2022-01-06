@@ -1,12 +1,12 @@
 # lst = [3, 5, 11, 12, 15, 23, 25, 34, 67, 86]
 lst = [3, 5, 11, 12, 15, 3, 5, 11, 12, 15]
 
-# target = 3
-# first, last = 0, len(lst) - 1
-# middle = (first - last) // 2 # find index of the mid element
+target = 3
+first, last = 0, len(lst) - 1
+middle = (first - last) // 2 # find index of the mid element
 
-# a = lst[middle] # find a number
-# print(a)
+a = lst[middle] # find a number
+print(a)
 
 
 def search (nums,target):
